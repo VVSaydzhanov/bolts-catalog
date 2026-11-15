@@ -1,0 +1,3167 @@
+{
+  "archetype": "hol_newyear",
+  "seed": 0,
+  "rule": "винт доступен, если вдоль его оси ничего не мешает; деталь снимается, когда выкручены все её винты",
+  "axes_used": [
+    "+x",
+    "+y",
+    "+z",
+    "-x",
+    "-y"
+  ],
+  "rotation_required": true,
+  "parts": [
+    {
+      "id": "core",
+      "access": "основание",
+      "needs": [
+        "plate1",
+        "plate2",
+        "plate3",
+        "plate4",
+        "body5",
+        "body8",
+        "body11"
+      ]
+    },
+    {
+      "id": "plate1",
+      "access": "спереди",
+      "needs": []
+    },
+    {
+      "id": "plate2",
+      "access": "сзади",
+      "needs": []
+    },
+    {
+      "id": "plate3",
+      "access": "справа",
+      "needs": []
+    },
+    {
+      "id": "plate4",
+      "access": "слева",
+      "needs": []
+    },
+    {
+      "id": "body5",
+      "access": "блок",
+      "needs": [
+        "plate6",
+        "plate7"
+      ]
+    },
+    {
+      "id": "plate6",
+      "access": "справа",
+      "needs": []
+    },
+    {
+      "id": "plate7",
+      "access": "спереди",
+      "needs": []
+    },
+    {
+      "id": "body8",
+      "access": "блок",
+      "needs": [
+        "plate9",
+        "plate10"
+      ]
+    },
+    {
+      "id": "plate9",
+      "access": "слева",
+      "needs": []
+    },
+    {
+      "id": "plate10",
+      "access": "сзади",
+      "needs": []
+    },
+    {
+      "id": "body11",
+      "access": "блок",
+      "needs": [
+        "body12"
+      ]
+    },
+    {
+      "id": "body12",
+      "access": "блок",
+      "needs": [
+        "plate13",
+        "plate16",
+        "knob18",
+        "plate19",
+        "plate22",
+        "plate24",
+        "plate25",
+        "knob27",
+        "plate28",
+        "plate30",
+        "body32"
+      ]
+    },
+    {
+      "id": "plate13",
+      "access": "спереди",
+      "needs": [
+        "bar14",
+        "bar15"
+      ]
+    },
+    {
+      "id": "bar14",
+      "access": "спереди",
+      "needs": []
+    },
+    {
+      "id": "bar15",
+      "access": "спереди",
+      "needs": []
+    },
+    {
+      "id": "plate16",
+      "access": "спереди",
+      "needs": [
+        "hood17"
+      ]
+    },
+    {
+      "id": "hood17",
+      "access": "спереди",
+      "needs": []
+    },
+    {
+      "id": "knob18",
+      "access": "спереди",
+      "needs": []
+    },
+    {
+      "id": "plate19",
+      "access": "сзади",
+      "needs": [
+        "bar20",
+        "bar21"
+      ]
+    },
+    {
+      "id": "bar20",
+      "access": "сзади",
+      "needs": []
+    },
+    {
+      "id": "bar21",
+      "access": "сзади",
+      "needs": []
+    },
+    {
+      "id": "plate22",
+      "access": "сзади",
+      "needs": [
+        "bar23"
+      ]
+    },
+    {
+      "id": "bar23",
+      "access": "сзади",
+      "needs": []
+    },
+    {
+      "id": "plate24",
+      "access": "справа",
+      "needs": []
+    },
+    {
+      "id": "plate25",
+      "access": "справа",
+      "needs": [
+        "hood26"
+      ]
+    },
+    {
+      "id": "hood26",
+      "access": "справа",
+      "needs": []
+    },
+    {
+      "id": "knob27",
+      "access": "справа",
+      "needs": []
+    },
+    {
+      "id": "plate28",
+      "access": "слева",
+      "needs": [
+        "bar29"
+      ]
+    },
+    {
+      "id": "bar29",
+      "access": "слева",
+      "needs": []
+    },
+    {
+      "id": "plate30",
+      "access": "слева",
+      "needs": [
+        "hood31"
+      ]
+    },
+    {
+      "id": "hood31",
+      "access": "слева",
+      "needs": []
+    },
+    {
+      "id": "body32",
+      "access": "блок",
+      "needs": [
+        "plate33",
+        "plate34",
+        "knob35",
+        "plate36",
+        "plate37",
+        "knob38",
+        "body39"
+      ]
+    },
+    {
+      "id": "plate33",
+      "access": "спереди",
+      "needs": []
+    },
+    {
+      "id": "plate34",
+      "access": "сзади",
+      "needs": []
+    },
+    {
+      "id": "knob35",
+      "access": "сзади",
+      "needs": []
+    },
+    {
+      "id": "plate36",
+      "access": "справа",
+      "needs": []
+    },
+    {
+      "id": "plate37",
+      "access": "слева",
+      "needs": []
+    },
+    {
+      "id": "knob38",
+      "access": "слева",
+      "needs": []
+    },
+    {
+      "id": "body39",
+      "access": "блок",
+      "needs": [
+        "plate40",
+        "knob41",
+        "plate42",
+        "plate43",
+        "knob44",
+        "plate45",
+        "body46"
+      ]
+    },
+    {
+      "id": "plate40",
+      "access": "спереди",
+      "needs": []
+    },
+    {
+      "id": "knob41",
+      "access": "спереди",
+      "needs": []
+    },
+    {
+      "id": "plate42",
+      "access": "сзади",
+      "needs": []
+    },
+    {
+      "id": "plate43",
+      "access": "справа",
+      "needs": []
+    },
+    {
+      "id": "knob44",
+      "access": "справа",
+      "needs": []
+    },
+    {
+      "id": "plate45",
+      "access": "слева",
+      "needs": []
+    },
+    {
+      "id": "body46",
+      "access": "блок",
+      "needs": [
+        "plate47",
+        "plate48",
+        "plate49",
+        "plate50",
+        "body51"
+      ]
+    },
+    {
+      "id": "plate47",
+      "access": "спереди",
+      "needs": []
+    },
+    {
+      "id": "plate48",
+      "access": "сзади",
+      "needs": []
+    },
+    {
+      "id": "plate49",
+      "access": "справа",
+      "needs": []
+    },
+    {
+      "id": "plate50",
+      "access": "слева",
+      "needs": []
+    },
+    {
+      "id": "body51",
+      "access": "блок",
+      "needs": [
+        "knob52",
+        "knob53",
+        "knob54",
+        "knob55",
+        "cone56"
+      ]
+    },
+    {
+      "id": "knob52",
+      "access": "спереди",
+      "needs": []
+    },
+    {
+      "id": "knob53",
+      "access": "сзади",
+      "needs": []
+    },
+    {
+      "id": "knob54",
+      "access": "справа",
+      "needs": []
+    },
+    {
+      "id": "knob55",
+      "access": "слева",
+      "needs": []
+    },
+    {
+      "id": "cone56",
+      "access": "сверху",
+      "needs": []
+    }
+  ],
+  "bolts": [
+    {
+      "id": "B_plate1_0",
+      "part": "plate1",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        -0.355,
+        -0.49,
+        0.145
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate1_1",
+      "part": "plate1",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        -0.355,
+        -0.49,
+        0.255
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate1_2",
+      "part": "plate1",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.355,
+        -0.49,
+        0.145
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate1_3",
+      "part": "plate1",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.355,
+        -0.49,
+        0.255
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate2_0",
+      "part": "plate2",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.355,
+        0.49,
+        0.145
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate2_1",
+      "part": "plate2",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.355,
+        0.49,
+        0.255
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate2_2",
+      "part": "plate2",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        0.355,
+        0.49,
+        0.145
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate2_3",
+      "part": "plate2",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        0.355,
+        0.49,
+        0.255
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate3_0",
+      "part": "plate3",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.49,
+        -0.355,
+        0.145
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "body5",
+        "plate6"
+      ]
+    },
+    {
+      "id": "B_plate3_1",
+      "part": "plate3",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.49,
+        -0.355,
+        0.255
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "body5",
+        "plate6"
+      ]
+    },
+    {
+      "id": "B_plate3_2",
+      "part": "plate3",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.49,
+        0.355,
+        0.145
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate3_3",
+      "part": "plate3",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.49,
+        0.355,
+        0.255
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate4_0",
+      "part": "plate4",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.49,
+        -0.355,
+        0.145
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate4_1",
+      "part": "plate4",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.49,
+        -0.355,
+        0.255
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate4_2",
+      "part": "plate4",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.49,
+        0.355,
+        0.145
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "body8",
+        "plate9"
+      ]
+    },
+    {
+      "id": "B_plate4_3",
+      "part": "plate4",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.49,
+        0.355,
+        0.255
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "body8",
+        "plate9"
+      ]
+    },
+    {
+      "id": "B_plate6_0",
+      "part": "plate6",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.88,
+        -0.385,
+        0.145
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate6_1",
+      "part": "plate6",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.88,
+        -0.385,
+        0.255
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate6_2",
+      "part": "plate6",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.88,
+        -0.215,
+        0.145
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate6_3",
+      "part": "plate6",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.88,
+        -0.215,
+        0.255
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate7_0",
+      "part": "plate7",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.575,
+        -0.52,
+        0.145
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate7_1",
+      "part": "plate7",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.575,
+        -0.52,
+        0.255
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate7_2",
+      "part": "plate7",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.745,
+        -0.52,
+        0.145
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate7_3",
+      "part": "plate7",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.745,
+        -0.52,
+        0.255
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate9_0",
+      "part": "plate9",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.88,
+        0.215,
+        0.145
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate9_1",
+      "part": "plate9",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.88,
+        0.215,
+        0.255
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate9_2",
+      "part": "plate9",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.88,
+        0.385,
+        0.145
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate9_3",
+      "part": "plate9",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.88,
+        0.385,
+        0.255
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate10_0",
+      "part": "plate10",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.745,
+        0.52,
+        0.145
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate10_1",
+      "part": "plate10",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.745,
+        0.52,
+        0.255
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate10_2",
+      "part": "plate10",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.575,
+        0.52,
+        0.145
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate10_3",
+      "part": "plate10",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.575,
+        0.52,
+        0.255
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_body11_0",
+      "part": "body11",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.0,
+        -0.14,
+        0.47
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_body11_1",
+      "part": "body11",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        0.0,
+        0.14,
+        0.47
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate13_0",
+      "part": "plate13",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        -0.555,
+        -0.69,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "bar14"
+      ]
+    },
+    {
+      "id": "B_plate13_1",
+      "part": "plate13",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        -0.555,
+        -0.69,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "bar15"
+      ]
+    },
+    {
+      "id": "B_plate13_2",
+      "part": "plate13",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        -0.075,
+        -0.69,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "bar14"
+      ]
+    },
+    {
+      "id": "B_plate13_3",
+      "part": "plate13",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        -0.075,
+        -0.69,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "bar15"
+      ]
+    },
+    {
+      "id": "B_bar14_0",
+      "part": "bar14",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        -0.416,
+        -0.74,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_bar14_1",
+      "part": "bar14",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        -0.214,
+        -0.74,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_bar15_0",
+      "part": "bar15",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        -0.416,
+        -0.74,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_bar15_1",
+      "part": "bar15",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        -0.214,
+        -0.74,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate16_0",
+      "part": "plate16",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.075,
+        -0.69,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "hood17"
+      ]
+    },
+    {
+      "id": "B_plate16_1",
+      "part": "plate16",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.075,
+        -0.69,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "hood17"
+      ]
+    },
+    {
+      "id": "B_plate16_2",
+      "part": "plate16",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.555,
+        -0.69,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "hood17"
+      ]
+    },
+    {
+      "id": "B_plate16_3",
+      "part": "plate16",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.555,
+        -0.69,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "hood17"
+      ]
+    },
+    {
+      "id": "B_plate16_4",
+      "part": "plate16",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.315,
+        -0.69,
+        0.78
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "hood17"
+      ]
+    },
+    {
+      "id": "B_hood17_0",
+      "part": "hood17",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.193,
+        -0.755,
+        0.78
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_hood17_1",
+      "part": "hood17",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.437,
+        -0.755,
+        0.78
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_knob18_0",
+      "part": "knob18",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.0,
+        -0.72,
+        0.63
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate19_0",
+      "part": "plate19",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.555,
+        0.69,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "bar20"
+      ]
+    },
+    {
+      "id": "B_plate19_1",
+      "part": "plate19",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.555,
+        0.69,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "bar21"
+      ]
+    },
+    {
+      "id": "B_plate19_2",
+      "part": "plate19",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.075,
+        0.69,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "bar20"
+      ]
+    },
+    {
+      "id": "B_plate19_3",
+      "part": "plate19",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.075,
+        0.69,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "bar21"
+      ]
+    },
+    {
+      "id": "B_bar20_0",
+      "part": "bar20",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.416,
+        0.74,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_bar20_1",
+      "part": "bar20",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.214,
+        0.74,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_bar21_0",
+      "part": "bar21",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.416,
+        0.74,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_bar21_1",
+      "part": "bar21",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.214,
+        0.74,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate22_0",
+      "part": "plate22",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        0.075,
+        0.69,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "bar23"
+      ]
+    },
+    {
+      "id": "B_plate22_1",
+      "part": "plate22",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        0.075,
+        0.69,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate22_2",
+      "part": "plate22",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        0.555,
+        0.69,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "bar23"
+      ]
+    },
+    {
+      "id": "B_plate22_3",
+      "part": "plate22",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        0.555,
+        0.69,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_bar23_0",
+      "part": "bar23",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        0.214,
+        0.74,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_bar23_1",
+      "part": "bar23",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        0.416,
+        0.74,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate24_0",
+      "part": "plate24",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.69,
+        -0.555,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate24_1",
+      "part": "plate24",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.69,
+        -0.555,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate24_2",
+      "part": "plate24",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.69,
+        -0.075,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate24_3",
+      "part": "plate24",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.69,
+        -0.075,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate25_0",
+      "part": "plate25",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.69,
+        0.075,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "hood26"
+      ]
+    },
+    {
+      "id": "B_plate25_1",
+      "part": "plate25",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.69,
+        0.075,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "hood26"
+      ]
+    },
+    {
+      "id": "B_plate25_2",
+      "part": "plate25",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.69,
+        0.555,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "hood26"
+      ]
+    },
+    {
+      "id": "B_plate25_3",
+      "part": "plate25",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.69,
+        0.555,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "hood26"
+      ]
+    },
+    {
+      "id": "B_plate25_4",
+      "part": "plate25",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.69,
+        0.315,
+        0.78
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "hood26"
+      ]
+    },
+    {
+      "id": "B_hood26_0",
+      "part": "hood26",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.755,
+        0.193,
+        0.78
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_hood26_1",
+      "part": "hood26",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.755,
+        0.437,
+        0.78
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_knob27_0",
+      "part": "knob27",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.72,
+        0.0,
+        0.63
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate28_0",
+      "part": "plate28",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.69,
+        -0.555,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "bar29"
+      ]
+    },
+    {
+      "id": "B_plate28_1",
+      "part": "plate28",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.69,
+        -0.555,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate28_2",
+      "part": "plate28",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.69,
+        -0.075,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "bar29"
+      ]
+    },
+    {
+      "id": "B_plate28_3",
+      "part": "plate28",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.69,
+        -0.075,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_bar29_0",
+      "part": "bar29",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.74,
+        -0.416,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_bar29_1",
+      "part": "bar29",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.74,
+        -0.214,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate30_0",
+      "part": "plate30",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.69,
+        0.075,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "hood31"
+      ]
+    },
+    {
+      "id": "B_plate30_1",
+      "part": "plate30",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.69,
+        0.075,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "hood31"
+      ]
+    },
+    {
+      "id": "B_plate30_2",
+      "part": "plate30",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.69,
+        0.555,
+        0.685
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "hood31"
+      ]
+    },
+    {
+      "id": "B_plate30_3",
+      "part": "plate30",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.69,
+        0.555,
+        0.875
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "hood31"
+      ]
+    },
+    {
+      "id": "B_plate30_4",
+      "part": "plate30",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.69,
+        0.315,
+        0.78
+      ],
+      "scale": 0.55,
+      "blocked_by": [
+        "hood31"
+      ]
+    },
+    {
+      "id": "B_hood31_0",
+      "part": "hood31",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.755,
+        0.193,
+        0.78
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_hood31_1",
+      "part": "hood31",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.755,
+        0.437,
+        0.78
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate33_0",
+      "part": "plate33",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        -0.415,
+        -0.55,
+        1.065
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate33_1",
+      "part": "plate33",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        -0.415,
+        -0.55,
+        1.235
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate33_2",
+      "part": "plate33",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.415,
+        -0.55,
+        1.065
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate33_3",
+      "part": "plate33",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.415,
+        -0.55,
+        1.235
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate34_0",
+      "part": "plate34",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.415,
+        0.55,
+        1.065
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate34_1",
+      "part": "plate34",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.415,
+        0.55,
+        1.235
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate34_2",
+      "part": "plate34",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        0.415,
+        0.55,
+        1.065
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate34_3",
+      "part": "plate34",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        0.415,
+        0.55,
+        1.235
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_knob35_0",
+      "part": "knob35",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        0.0,
+        0.58,
+        1.01
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate36_0",
+      "part": "plate36",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.55,
+        -0.415,
+        1.065
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate36_1",
+      "part": "plate36",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.55,
+        -0.415,
+        1.235
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate36_2",
+      "part": "plate36",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.55,
+        0.415,
+        1.065
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate36_3",
+      "part": "plate36",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.55,
+        0.415,
+        1.235
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate37_0",
+      "part": "plate37",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.55,
+        -0.415,
+        1.065
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate37_1",
+      "part": "plate37",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.55,
+        -0.415,
+        1.235
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate37_2",
+      "part": "plate37",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.55,
+        0.415,
+        1.065
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate37_3",
+      "part": "plate37",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.55,
+        0.415,
+        1.235
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_knob38_0",
+      "part": "knob38",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.58,
+        0.0,
+        1.01
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate40_0",
+      "part": "plate40",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        -0.285,
+        -0.42,
+        1.425
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate40_1",
+      "part": "plate40",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        -0.285,
+        -0.42,
+        1.575
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate40_2",
+      "part": "plate40",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.285,
+        -0.42,
+        1.425
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate40_3",
+      "part": "plate40",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.285,
+        -0.42,
+        1.575
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_knob41_0",
+      "part": "knob41",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.0,
+        -0.45,
+        1.37
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate42_0",
+      "part": "plate42",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.285,
+        0.42,
+        1.425
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate42_1",
+      "part": "plate42",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.285,
+        0.42,
+        1.575
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate42_2",
+      "part": "plate42",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        0.285,
+        0.42,
+        1.425
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate42_3",
+      "part": "plate42",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        0.285,
+        0.42,
+        1.575
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate43_0",
+      "part": "plate43",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.42,
+        -0.285,
+        1.425
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate43_1",
+      "part": "plate43",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.42,
+        -0.285,
+        1.575
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate43_2",
+      "part": "plate43",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.42,
+        0.285,
+        1.425
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate43_3",
+      "part": "plate43",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.42,
+        0.285,
+        1.575
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_knob44_0",
+      "part": "knob44",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.45,
+        0.0,
+        1.37
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate45_0",
+      "part": "plate45",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.42,
+        -0.285,
+        1.425
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate45_1",
+      "part": "plate45",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.42,
+        -0.285,
+        1.575
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate45_2",
+      "part": "plate45",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.42,
+        0.285,
+        1.425
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate45_3",
+      "part": "plate45",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.42,
+        0.285,
+        1.575
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate47_0",
+      "part": "plate47",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        -0.155,
+        -0.29,
+        1.765
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate47_1",
+      "part": "plate47",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        -0.155,
+        -0.29,
+        1.895
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate47_2",
+      "part": "plate47",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.155,
+        -0.29,
+        1.765
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate47_3",
+      "part": "plate47",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.155,
+        -0.29,
+        1.895
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate48_0",
+      "part": "plate48",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.155,
+        0.29,
+        1.765
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate48_1",
+      "part": "plate48",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        -0.155,
+        0.29,
+        1.895
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate48_2",
+      "part": "plate48",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        0.155,
+        0.29,
+        1.765
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate48_3",
+      "part": "plate48",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        0.155,
+        0.29,
+        1.895
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate49_0",
+      "part": "plate49",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.29,
+        -0.155,
+        1.765
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate49_1",
+      "part": "plate49",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.29,
+        -0.155,
+        1.895
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate49_2",
+      "part": "plate49",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.29,
+        0.155,
+        1.765
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate49_3",
+      "part": "plate49",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.29,
+        0.155,
+        1.895
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate50_0",
+      "part": "plate50",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.29,
+        -0.155,
+        1.765
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate50_1",
+      "part": "plate50",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.29,
+        -0.155,
+        1.895
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate50_2",
+      "part": "plate50",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.29,
+        0.155,
+        1.765
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_plate50_3",
+      "part": "plate50",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.29,
+        0.155,
+        1.895
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_knob52_0",
+      "part": "knob52",
+      "axis": "-y",
+      "into": null,
+      "pos": [
+        0.0,
+        -0.2,
+        2.09
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_knob53_0",
+      "part": "knob53",
+      "axis": "+y",
+      "into": null,
+      "pos": [
+        0.0,
+        0.2,
+        2.09
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_knob54_0",
+      "part": "knob54",
+      "axis": "+x",
+      "into": null,
+      "pos": [
+        0.2,
+        0.0,
+        2.09
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_knob55_0",
+      "part": "knob55",
+      "axis": "-x",
+      "into": null,
+      "pos": [
+        -0.2,
+        0.0,
+        2.09
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    },
+    {
+      "id": "B_cone56_0",
+      "part": "cone56",
+      "axis": "+z",
+      "into": null,
+      "pos": [
+        0.0,
+        0.0,
+        2.43
+      ],
+      "scale": 0.55,
+      "blocked_by": []
+    }
+  ],
+  "disassembly": [
+    {
+      "step": 1,
+      "unscrew": [
+        "B_plate1_0",
+        "B_plate1_1",
+        "B_plate1_2",
+        "B_plate1_3"
+      ],
+      "axes": [
+        "-y"
+      ]
+    },
+    {
+      "step": 2,
+      "remove": "plate1",
+      "access": "спереди"
+    },
+    {
+      "step": 3,
+      "unscrew": [
+        "B_plate2_0",
+        "B_plate2_1",
+        "B_plate2_2",
+        "B_plate2_3"
+      ],
+      "axes": [
+        "+y"
+      ]
+    },
+    {
+      "step": 4,
+      "remove": "plate2",
+      "access": "сзади"
+    },
+    {
+      "step": 5,
+      "unscrew": [
+        "B_plate6_0",
+        "B_plate6_1",
+        "B_plate6_2",
+        "B_plate6_3"
+      ],
+      "axes": [
+        "+x"
+      ]
+    },
+    {
+      "step": 6,
+      "remove": "plate6",
+      "access": "справа"
+    },
+    {
+      "step": 7,
+      "unscrew": [
+        "B_plate7_0",
+        "B_plate7_1",
+        "B_plate7_2",
+        "B_plate7_3"
+      ],
+      "axes": [
+        "-y"
+      ]
+    },
+    {
+      "step": 8,
+      "remove": "plate7",
+      "access": "спереди"
+    },
+    {
+      "step": 9,
+      "unscrew": [
+        "B_plate9_0",
+        "B_plate9_1",
+        "B_plate9_2",
+        "B_plate9_3"
+      ],
+      "axes": [
+        "-x"
+      ]
+    },
+    {
+      "step": 10,
+      "remove": "plate9",
+      "access": "слева"
+    },
+    {
+      "step": 11,
+      "unscrew": [
+        "B_plate10_0",
+        "B_plate10_1",
+        "B_plate10_2",
+        "B_plate10_3"
+      ],
+      "axes": [
+        "+y"
+      ]
+    },
+    {
+      "step": 12,
+      "remove": "plate10",
+      "access": "сзади"
+    },
+    {
+      "step": 13,
+      "unscrew": [
+        "B_bar14_0",
+        "B_bar14_1"
+      ],
+      "axes": [
+        "-y"
+      ]
+    },
+    {
+      "step": 14,
+      "remove": "bar14",
+      "access": "спереди"
+    },
+    {
+      "step": 15,
+      "unscrew": [
+        "B_bar15_0",
+        "B_bar15_1"
+      ],
+      "axes": [
+        "-y"
+      ]
+    },
+    {
+      "step": 16,
+      "remove": "bar15",
+      "access": "спереди"
+    },
+    {
+      "step": 17,
+      "unscrew": [
+        "B_hood17_0",
+        "B_hood17_1"
+      ],
+      "axes": [
+        "-y"
+      ]
+    },
+    {
+      "step": 18,
+      "remove": "hood17",
+      "access": "спереди"
+    },
+    {
+      "step": 19,
+      "unscrew": [
+        "B_knob18_0"
+      ],
+      "axes": [
+        "-y"
+      ]
+    },
+    {
+      "step": 20,
+      "remove": "knob18",
+      "access": "спереди"
+    },
+    {
+      "step": 21,
+      "unscrew": [
+        "B_bar20_0",
+        "B_bar20_1"
+      ],
+      "axes": [
+        "+y"
+      ]
+    },
+    {
+      "step": 22,
+      "remove": "bar20",
+      "access": "сзади"
+    },
+    {
+      "step": 23,
+      "unscrew": [
+        "B_bar21_0",
+        "B_bar21_1"
+      ],
+      "axes": [
+        "+y"
+      ]
+    },
+    {
+      "step": 24,
+      "remove": "bar21",
+      "access": "сзади"
+    },
+    {
+      "step": 25,
+      "unscrew": [
+        "B_bar23_0",
+        "B_bar23_1"
+      ],
+      "axes": [
+        "+y"
+      ]
+    },
+    {
+      "step": 26,
+      "remove": "bar23",
+      "access": "сзади"
+    },
+    {
+      "step": 27,
+      "unscrew": [
+        "B_plate24_0",
+        "B_plate24_1",
+        "B_plate24_2",
+        "B_plate24_3"
+      ],
+      "axes": [
+        "+x"
+      ]
+    },
+    {
+      "step": 28,
+      "remove": "plate24",
+      "access": "справа"
+    },
+    {
+      "step": 29,
+      "unscrew": [
+        "B_hood26_0",
+        "B_hood26_1"
+      ],
+      "axes": [
+        "+x"
+      ]
+    },
+    {
+      "step": 30,
+      "remove": "hood26",
+      "access": "справа"
+    },
+    {
+      "step": 31,
+      "unscrew": [
+        "B_knob27_0"
+      ],
+      "axes": [
+        "+x"
+      ]
+    },
+    {
+      "step": 32,
+      "remove": "knob27",
+      "access": "справа"
+    },
+    {
+      "step": 33,
+      "unscrew": [
+        "B_bar29_0",
+        "B_bar29_1"
+      ],
+      "axes": [
+        "-x"
+      ]
+    },
+    {
+      "step": 34,
+      "remove": "bar29",
+      "access": "слева"
+    },
+    {
+      "step": 35,
+      "unscrew": [
+        "B_hood31_0",
+        "B_hood31_1"
+      ],
+      "axes": [
+        "-x"
+      ]
+    },
+    {
+      "step": 36,
+      "remove": "hood31",
+      "access": "слева"
+    },
+    {
+      "step": 37,
+      "unscrew": [
+        "B_plate33_0",
+        "B_plate33_1",
+        "B_plate33_2",
+        "B_plate33_3"
+      ],
+      "axes": [
+        "-y"
+      ]
+    },
+    {
+      "step": 38,
+      "remove": "plate33",
+      "access": "спереди"
+    },
+    {
+      "step": 39,
+      "unscrew": [
+        "B_plate34_0",
+        "B_plate34_1",
+        "B_plate34_2",
+        "B_plate34_3"
+      ],
+      "axes": [
+        "+y"
+      ]
+    },
+    {
+      "step": 40,
+      "remove": "plate34",
+      "access": "сзади"
+    },
+    {
+      "step": 41,
+      "unscrew": [
+        "B_knob35_0"
+      ],
+      "axes": [
+        "+y"
+      ]
+    },
+    {
+      "step": 42,
+      "remove": "knob35",
+      "access": "сзади"
+    },
+    {
+      "step": 43,
+      "unscrew": [
+        "B_plate36_0",
+        "B_plate36_1",
+        "B_plate36_2",
+        "B_plate36_3"
+      ],
+      "axes": [
+        "+x"
+      ]
+    },
+    {
+      "step": 44,
+      "remove": "plate36",
+      "access": "справа"
+    },
+    {
+      "step": 45,
+      "unscrew": [
+        "B_plate37_0",
+        "B_plate37_1",
+        "B_plate37_2",
+        "B_plate37_3"
+      ],
+      "axes": [
+        "-x"
+      ]
+    },
+    {
+      "step": 46,
+      "remove": "plate37",
+      "access": "слева"
+    },
+    {
+      "step": 47,
+      "unscrew": [
+        "B_knob38_0"
+      ],
+      "axes": [
+        "-x"
+      ]
+    },
+    {
+      "step": 48,
+      "remove": "knob38",
+      "access": "слева"
+    },
+    {
+      "step": 49,
+      "unscrew": [
+        "B_plate40_0",
+        "B_plate40_1",
+        "B_plate40_2",
+        "B_plate40_3"
+      ],
+      "axes": [
+        "-y"
+      ]
+    },
+    {
+      "step": 50,
+      "remove": "plate40",
+      "access": "спереди"
+    },
+    {
+      "step": 51,
+      "unscrew": [
+        "B_knob41_0"
+      ],
+      "axes": [
+        "-y"
+      ]
+    },
+    {
+      "step": 52,
+      "remove": "knob41",
+      "access": "спереди"
+    },
+    {
+      "step": 53,
+      "unscrew": [
+        "B_plate42_0",
+        "B_plate42_1",
+        "B_plate42_2",
+        "B_plate42_3"
+      ],
+      "axes": [
+        "+y"
+      ]
+    },
+    {
+      "step": 54,
+      "remove": "plate42",
+      "access": "сзади"
+    },
+    {
+      "step": 55,
+      "unscrew": [
+        "B_plate43_0",
+        "B_plate43_1",
+        "B_plate43_2",
+        "B_plate43_3"
+      ],
+      "axes": [
+        "+x"
+      ]
+    },
+    {
+      "step": 56,
+      "remove": "plate43",
+      "access": "справа"
+    },
+    {
+      "step": 57,
+      "unscrew": [
+        "B_knob44_0"
+      ],
+      "axes": [
+        "+x"
+      ]
+    },
+    {
+      "step": 58,
+      "remove": "knob44",
+      "access": "справа"
+    },
+    {
+      "step": 59,
+      "unscrew": [
+        "B_plate45_0",
+        "B_plate45_1",
+        "B_plate45_2",
+        "B_plate45_3"
+      ],
+      "axes": [
+        "-x"
+      ]
+    },
+    {
+      "step": 60,
+      "remove": "plate45",
+      "access": "слева"
+    },
+    {
+      "step": 61,
+      "unscrew": [
+        "B_plate47_0",
+        "B_plate47_1",
+        "B_plate47_2",
+        "B_plate47_3"
+      ],
+      "axes": [
+        "-y"
+      ]
+    },
+    {
+      "step": 62,
+      "remove": "plate47",
+      "access": "спереди"
+    },
+    {
+      "step": 63,
+      "unscrew": [
+        "B_plate48_0",
+        "B_plate48_1",
+        "B_plate48_2",
+        "B_plate48_3"
+      ],
+      "axes": [
+        "+y"
+      ]
+    },
+    {
+      "step": 64,
+      "remove": "plate48",
+      "access": "сзади"
+    },
+    {
+      "step": 65,
+      "unscrew": [
+        "B_plate49_0",
+        "B_plate49_1",
+        "B_plate49_2",
+        "B_plate49_3"
+      ],
+      "axes": [
+        "+x"
+      ]
+    },
+    {
+      "step": 66,
+      "remove": "plate49",
+      "access": "справа"
+    },
+    {
+      "step": 67,
+      "unscrew": [
+        "B_plate50_0",
+        "B_plate50_1",
+        "B_plate50_2",
+        "B_plate50_3"
+      ],
+      "axes": [
+        "-x"
+      ]
+    },
+    {
+      "step": 68,
+      "remove": "plate50",
+      "access": "слева"
+    },
+    {
+      "step": 69,
+      "unscrew": [
+        "B_knob52_0"
+      ],
+      "axes": [
+        "-y"
+      ]
+    },
+    {
+      "step": 70,
+      "remove": "knob52",
+      "access": "спереди"
+    },
+    {
+      "step": 71,
+      "unscrew": [
+        "B_knob53_0"
+      ],
+      "axes": [
+        "+y"
+      ]
+    },
+    {
+      "step": 72,
+      "remove": "knob53",
+      "access": "сзади"
+    },
+    {
+      "step": 73,
+      "unscrew": [
+        "B_knob54_0"
+      ],
+      "axes": [
+        "+x"
+      ]
+    },
+    {
+      "step": 74,
+      "remove": "knob54",
+      "access": "справа"
+    },
+    {
+      "step": 75,
+      "unscrew": [
+        "B_knob55_0"
+      ],
+      "axes": [
+        "-x"
+      ]
+    },
+    {
+      "step": 76,
+      "remove": "knob55",
+      "access": "слева"
+    },
+    {
+      "step": 77,
+      "unscrew": [
+        "B_cone56_0"
+      ],
+      "axes": [
+        "+z"
+      ]
+    },
+    {
+      "step": 78,
+      "remove": "cone56",
+      "access": "сверху"
+    },
+    {
+      "step": 79,
+      "remove": "body5",
+      "access": "блок"
+    },
+    {
+      "step": 80,
+      "remove": "body8",
+      "access": "блок"
+    },
+    {
+      "step": 81,
+      "unscrew": [
+        "B_plate13_0",
+        "B_plate13_1",
+        "B_plate13_2",
+        "B_plate13_3"
+      ],
+      "axes": [
+        "-y"
+      ]
+    },
+    {
+      "step": 82,
+      "remove": "plate13",
+      "access": "спереди"
+    },
+    {
+      "step": 83,
+      "unscrew": [
+        "B_plate16_0",
+        "B_plate16_1",
+        "B_plate16_2",
+        "B_plate16_3",
+        "B_plate16_4"
+      ],
+      "axes": [
+        "-y"
+      ]
+    },
+    {
+      "step": 84,
+      "remove": "plate16",
+      "access": "спереди"
+    },
+    {
+      "step": 85,
+      "unscrew": [
+        "B_plate19_0",
+        "B_plate19_1",
+        "B_plate19_2",
+        "B_plate19_3"
+      ],
+      "axes": [
+        "+y"
+      ]
+    },
+    {
+      "step": 86,
+      "remove": "plate19",
+      "access": "сзади"
+    },
+    {
+      "step": 87,
+      "unscrew": [
+        "B_plate22_0",
+        "B_plate22_1",
+        "B_plate22_2",
+        "B_plate22_3"
+      ],
+      "axes": [
+        "+y"
+      ]
+    },
+    {
+      "step": 88,
+      "remove": "plate22",
+      "access": "сзади"
+    },
+    {
+      "step": 89,
+      "unscrew": [
+        "B_plate25_0",
+        "B_plate25_1",
+        "B_plate25_2",
+        "B_plate25_3",
+        "B_plate25_4"
+      ],
+      "axes": [
+        "+x"
+      ]
+    },
+    {
+      "step": 90,
+      "remove": "plate25",
+      "access": "справа"
+    },
+    {
+      "step": 91,
+      "unscrew": [
+        "B_plate28_0",
+        "B_plate28_1",
+        "B_plate28_2",
+        "B_plate28_3"
+      ],
+      "axes": [
+        "-x"
+      ]
+    },
+    {
+      "step": 92,
+      "remove": "plate28",
+      "access": "слева"
+    },
+    {
+      "step": 93,
+      "unscrew": [
+        "B_plate30_0",
+        "B_plate30_1",
+        "B_plate30_2",
+        "B_plate30_3",
+        "B_plate30_4"
+      ],
+      "axes": [
+        "-x"
+      ]
+    },
+    {
+      "step": 94,
+      "remove": "plate30",
+      "access": "слева"
+    },
+    {
+      "step": 95,
+      "remove": "body51",
+      "access": "блок"
+    },
+    {
+      "step": 96,
+      "unscrew": [
+        "B_plate3_0",
+        "B_plate3_1",
+        "B_plate3_2",
+        "B_plate3_3"
+      ],
+      "axes": [
+        "+x"
+      ]
+    },
+    {
+      "step": 97,
+      "remove": "plate3",
+      "access": "справа"
+    },
+    {
+      "step": 98,
+      "unscrew": [
+        "B_plate4_0",
+        "B_plate4_1",
+        "B_plate4_2",
+        "B_plate4_3"
+      ],
+      "axes": [
+        "-x"
+      ]
+    },
+    {
+      "step": 99,
+      "remove": "plate4",
+      "access": "слева"
+    },
+    {
+      "step": 100,
+      "remove": "body46",
+      "access": "блок"
+    },
+    {
+      "step": 101,
+      "remove": "body39",
+      "access": "блок"
+    },
+    {
+      "step": 102,
+      "remove": "body32",
+      "access": "блок"
+    },
+    {
+      "step": 103,
+      "remove": "body12",
+      "access": "блок"
+    },
+    {
+      "step": 104,
+      "unscrew": [
+        "B_body11_0",
+        "B_body11_1"
+      ],
+      "axes": [
+        "+y",
+        "-y"
+      ]
+    },
+    {
+      "step": 105,
+      "remove": "body11",
+      "access": "блок"
+    },
+    {
+      "step": 106,
+      "remove": "core",
+      "access": "основание"
+    }
+  ],
+  "stuck": [],
+  "bolt_overlaps": [],
+  "hanging_bolts": []
+}

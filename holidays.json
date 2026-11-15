@@ -1,0 +1,32 @@
+{
+ "items": [
+  {
+   "id": "hol_newyear",
+   "ver": 1,
+   "title": [
+    "Новогодняя ёлка",
+    "New Year tree"
+   ],
+   "event": [
+    "Новый год",
+    "New Year"
+   ],
+   "from": "12-20",
+   "to": "01-10",
+   "lvl": 8,
+   "coins": 100,
+   "tune": [
+    {
+     "cap": 4,
+     "mix": 3,
+     "ncol": 8,
+     "salt": 0
+    }
+   ],
+   "files": {
+    "glb": "hol_newyear/hol_newyear.glb",
+    "json": "hol_newyear/hol_newyear.json"
+   }
+  }
+ ]
+}
